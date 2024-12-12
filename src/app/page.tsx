@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -94,8 +95,16 @@ export default function Home() {
             height={16}
           />
           Go to nextjs.org →
+          new Just of 
         </a>
       </footer>
+      <div>
+        <span className="">
+          Next.js comes with-in TYpeScript support. To add Type
+        </span>
+      </div>   
+
+
     </div>
   );
 }
